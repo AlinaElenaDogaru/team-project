@@ -10,11 +10,7 @@
   ul{
     list-style: none;
   }
-  img{
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
+
 
   .wrapper{
    
@@ -414,11 +410,11 @@ flex-direction: row;
 
 
   .hero-images {
+    display: flex;
    flex-direction: column;
    justify-content: center;
    padding-top: 0;
    align-items: flex-start;
-
 
   }
 
@@ -435,9 +431,6 @@ flex-direction: row;
     flex-direction: row;
     gap: 12px;
     
-  
-
-
   }
 
 .hero-button {  
