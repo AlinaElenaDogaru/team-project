@@ -486,7 +486,7 @@ margin-bottom: 40px;
 
 
 .nav-item, .nav-phone{
-  display: flex;
+  display: none;
   justify-content: space-between;
   margin-left: 40px;
  
@@ -507,7 +507,12 @@ margin-bottom: 40px;
 }
 
 .js-open-menu{
-  display: none;
+  display: block;
+}
+.hero-watch {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 }
@@ -548,6 +553,12 @@ margin-bottom: 40px;
 
 .js-open-menu{
   display: none;
+}
+
+.hero-watch {
+  display: block;
+  max-width: 60%;
+  height: auto;
 }
 
 }
