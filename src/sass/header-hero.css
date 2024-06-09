@@ -10,10 +10,14 @@
   ul{
     list-style: none;
   }
-
+  img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
   .wrapper{
-    width: 1440px;
+   
     max-width: 100%;
     margin: 0 auto;
     background-color: #141414;
@@ -155,6 +159,7 @@ align-items: center;
 gap: 60px;
 padding-top: 80px;
 padding-bottom: 80px;
+justify-content: space-between;
 
 }
 
@@ -250,6 +255,7 @@ flex-direction: row;
 .hero-text-mobile{
   display: none;
 }
+
 
 /* mobile menu */
 .js-menu-container{
@@ -428,6 +434,8 @@ flex-direction: row;
     display: flex;
     flex-direction: row;
     gap: 12px;
+    
+  
 
 
   }
@@ -488,6 +496,7 @@ margin-bottom: 40px;
   display: flex;
   justify-content: space-between;
   margin-left: 40px;
+ 
 }
 
 
@@ -511,6 +520,10 @@ margin-bottom: 40px;
 }
 
 @media screen and (min-width: 769px) and (max-width: 1280px) {
+
+  .wrapper{
+    max-width: 1440px;
+  }
   
   .nav-item, .nav-phone{
     display: flex;
@@ -535,6 +548,10 @@ margin-bottom: 40px;
   padding-top: 65px;
 }
 
+.control-button{
+  display: flex;
+  flex-wrap: nowrap;
+}
 
 .js-open-menu{
   display: none;
