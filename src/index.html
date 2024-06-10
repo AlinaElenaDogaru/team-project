@@ -7,12 +7,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+
     <title>The Watch Spot</title>
+    
+     <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
 
     <link rel="stylesheet" href="./sass/index.scss" />
 
 
 
+    <link rel="stylesheet" href="./sass/header-hero.css"/>
 
 
     <link rel="stylesheet" href="./sass/about.css"> 
@@ -37,7 +44,8 @@
   </head>
   <body>
 
-    
+      <include src="./partials/header-hero.html"></include>
+
      <include src="./partials/about.html" > </include>
 
     <include src="./partials/catalog.html"></include>
@@ -50,6 +58,37 @@
     
    <!-- FOOTER SECTION -->
   <include src="./partials/footer-section.html"></include>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    
+
+
+<script src="./mobile-menu.js"></script>
+<script>
+  const swiper = new Swiper('.swiper', {
+    // Optional parameters
+    
+    loop: true,
+  
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  
+    // And if we need scrollbar
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+  });
+</script>
 
 
 
