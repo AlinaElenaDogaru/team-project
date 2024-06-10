@@ -11,7 +11,6 @@
     list-style: none;
   }
 
-
   .wrapper{
    
     max-width: 100%;
@@ -123,6 +122,7 @@ line-height: 12px;
   justify-content: space-between;
   align-items: center;
   padding-top: 98px;
+  flex-wrap: wrap;
 
 }
 .hero-section-title{
@@ -145,8 +145,8 @@ line-height: 12px;
     line-height: 18px;
     letter-spacing: -0.02em;
     color: #FFFFFF;
-    
-   
+    display: flex;
+   flex-wrap: wrap;
 }
 
 .hero-images{
@@ -163,8 +163,8 @@ justify-content: space-between;
 .watch-slides{
   text-align: center;
   background: #1E2827;
-  width: 435px;
-  height: 255px;
+  max-width: 435px;
+  max-height: 255px;
   padding: 2rem;
  
   

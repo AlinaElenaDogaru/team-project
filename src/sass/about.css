@@ -109,7 +109,11 @@ justify-content: center;
           padding-left: 170px;
      }
 
-     .paragraph1, .paragraph2 {
+     .paragraph1  {
+          max-width: 40%;
+     }
+
+     .paragraph2 {
           max-width: 30%;
      }
      .about {
